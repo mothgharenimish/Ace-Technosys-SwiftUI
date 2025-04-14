@@ -9,7 +9,26 @@ import SwiftUI
 
 struct Login: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack(alignment: .leading){
+            
+            Button {
+                
+                
+            } label: {
+                
+                Image("Frame")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 30,height: 30)
+
+                
+            }
+            
+            
+            Spacer()
+            
+        }
     }
 }
 
